@@ -1,10 +1,10 @@
 from http.client import InvalidURL
 
 
-def button_one(label: str, url: str):
+def button(label: str, url: str):
     if any(v in url for v in test_url):
         payloads = {"label": label, "url": url}
-        return payloads
+        return button
     else:
         raise InvalidURL + TypeError("Invalid URL passed")
 
@@ -13,12 +13,13 @@ class RPC(Exception):
     def __init__(self, message: str = None):
         if message is None:
             message = 'Error: ' + message
-        super().__init__(message)
+        super().message = message
 
 
 class ButtonError(RPC):
     def __init__(self, message: str = None):
-        super().__init__(message)
+        super().message = message
+        message = 'Error: ButtonError (RPC)'
 
     pass
 
