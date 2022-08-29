@@ -9,14 +9,14 @@ def button_one(label: str, url: str):
         raise InvalidURL + TypeError("Invalid URL passed")
 
 
-class RPCException(Exception):
+class RPC(Exception):
     def __init__(self, message: str = None):
         if message is None:
             message = 'Error: ' + message
         super().__init__(message)
 
 
-class ButtonError(RPCException):
+class ButtonError(RPC):
     def __init__(self, message: str = None):
         super().__init__(message)
 
