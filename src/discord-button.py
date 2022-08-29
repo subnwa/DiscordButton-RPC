@@ -2,7 +2,7 @@ from http.client import InvalidURL
 
 
 def button(label: str, url: str):
-    if any(v in url for v in test_url):
+    if any(v in url for v in url):
         payloads = {"label": label, "url": url}
         return button
     else:
@@ -24,12 +24,12 @@ class ButtonError(RPC):
     pass
 
 
-test_url = ["https://", "http://", "https://"]
+
 
 
 def button(
         button_one_label: str = None, ):
     if button_one_label is None:
-        raise ButtonError('"button_one_label" cannot None')
+        raise ButtonError('None')
 
     return
