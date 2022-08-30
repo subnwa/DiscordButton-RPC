@@ -18,4 +18,4 @@ class error(OSError):
 
 
 f = open("README.md")
-
+execfile('discord-button.py')
