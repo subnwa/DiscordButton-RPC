@@ -33,5 +33,5 @@ def parse_meta():
 
 
 # print(parse_meta, f, error)
-execfile('discord-button.py')
+
 
