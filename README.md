@@ -1,6 +1,7 @@
 # DiscordButton-RPC
 [![Upload Python Package](https://github.com/subnwa/DiscordButton-RPC/actions/workflows/python-publish.yml/badge.svg)](https://github.com/subnwa/DiscordButton-RPC/actions/workflows/python-publish.yml) ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsubnwa%2FDiscordButton-RPC.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsubnwa%2FDiscordButton-RPC?ref=badge_shield)
 
 A Python package that makes buttons work better and more stable on Discord.
 
@@ -14,3 +15,6 @@ Feel free to check [issues page](https://github.com/subnwa/DiscordButton-RPC/iss
 Copyright © 2022 nwa nwa.business@outlook.com.
 
 This project is Apache-2.0 license licensed.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsubnwa%2FDiscordButton-RPC.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsubnwa%2FDiscordButton-RPC?ref=badge_large)
