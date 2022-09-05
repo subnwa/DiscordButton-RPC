@@ -2,6 +2,8 @@ root = true
 
 [*]
 url = "https://"
+image = {image: "image/png", url
+format = "png", "jpg", "jpeg", "gif"
 
 [{*.har,*.json}]
 indent_size = 2

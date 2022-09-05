@@ -24,6 +24,7 @@ class images(Exception):
     def __init__(self, message: str = None):
         var = (v in images for v in images)
         image = {"image": images, "type": images.get("type")}
+        image = format(format(image, var))
 
     @classmethod
     def get(cls, param):
