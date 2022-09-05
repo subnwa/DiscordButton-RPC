@@ -14,24 +14,20 @@ class error(OSError):
     def __init__(self, msg: str):
         self.msg = msg
         msg = "OSError: %s" % msg
+
     try:
         pass
     except Exception as e:
         raise OSError
-    else: 
+    else:
         pass
 
 
-
 f = open("README.md")
-
 
 
 def parse_meta():
     with open(os.path.join("DiscordButton-RPC", "discord-button.py")) as fp:
         code = fp.read()
 
-
 # print(parse_meta, f, error)
-
-
