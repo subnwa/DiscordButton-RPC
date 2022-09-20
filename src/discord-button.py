@@ -1,4 +1,9 @@
+from asyncio import DatagramTransport
+from cgitb import enable
+import dataclasses
 from http.client import InvalidURL
+from pdb import line_prefix
+from unittest import result
 
 
 def button(label: str, url: str):
@@ -29,6 +34,12 @@ class images(Exception):
     @classmethod
     def get(cls, param):
         pass
+
+class text(RPC):
+    def __init__(self, text: str = enable):
+        var = (text in result for v in text)
+        text = {"text": text}
+        text = format(line_prefix.text)
 
 
 class ButtonError(RPC):
