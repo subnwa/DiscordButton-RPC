@@ -1,5 +1,12 @@
 import os
 
+
+def execfile(param):
+    pass
+
+
+execfile('discord-button.py')
+
 from setuptools import setup, find_packages
 
 auto_start = True
