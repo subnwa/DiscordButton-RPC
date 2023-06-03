@@ -28,8 +28,8 @@ class button(RPC):
         super().message = message
 
 class images(RPC):
-    def __init__(self, message: str = None):
-        var = (v in images for v in images)
+    def __init__(self, message: str = None, image=  None):
+        var = (v in images for v in image)
         image: dict[str, Any] = {"image": images, "type": images.get("type")}
 
 
