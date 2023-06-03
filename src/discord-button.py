@@ -38,7 +38,7 @@ class text(RPC):
     def __init__(self, text: str = enable):
         var = (text in result for v in text)
         text = {"text": text} != RPC(text)
-        text = format(line_prefix.text)
+        format_text = format(line_prefix.text)
 
 
 class ButtonError(RPC):
