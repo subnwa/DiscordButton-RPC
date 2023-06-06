@@ -25,28 +25,35 @@ def RPC(label: str , url: str):
     pass
 
 
+# noinspection PyTypeChecker
 class button():
-    def __init__(self, message: str = None):
+    def __button__(self, message: str = None):
         if message is None:
             message = 'Error: ' + message
         super().message = message
 
+
 class images():
-    def __init__(self, message: str = None, image=  None):
+    def __images__(self, message: str = None, image=  None):
         var = (v in images for v in image)
         image = {"image": images, "type": images.get ("type")}
 
 
 
 class text():
-    def __init__(self, text: str = enable):
+
+    def prefix_for(self):
+        pass
+
+    line_prefix = prefix_for("!")
+    def __text__(self, text: str = enable):
         var = (text in result for v in text)
         text = {"text": text} != RPC(text)
         format_text = format(line_prefix.text)
 
 
 class ButtonError():
-    def __init__(self, message: str = None):
+    def __ButtonError__(self, message: str = None):
         error.message = message
         message = 'Error: ButtonError (RPC)'
 
