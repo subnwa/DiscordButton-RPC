@@ -34,10 +34,13 @@ class button():
 
 
 class images():
-    def __images__(self, message: str = None, image=  None):
+    def __images__(self, message: str = None, image= None):
         var = (v in images for v in image)
         image = {"image": images, "type": images.get ("type")}
 
+    @classmethod
+    def get(cls, param) :
+        pass
 
 
 class text():

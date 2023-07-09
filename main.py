@@ -20,7 +20,7 @@ f = open("README.md")
 
 
 def parse_meta():
-    with open(os.path.join("DiscordButton-RPC", "discord-button.py")) as fp:
+    with open(os.path.join("DiscordButton-RPC", "./src/discord-button.py")) as fp:
         code = fp.read()
 
 # print(parse_meta, f, error)
