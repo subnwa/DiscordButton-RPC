@@ -1,3 +1,4 @@
+import string
 from asyncio import DatagramTransport
 from cgitb import enable
 import dataclasses
@@ -14,12 +15,12 @@ from unittest import result
 
 def RPC(label: str, url: str, data=None) :
     if any(v in url for v in url) :
-        payloads = {"label" : label, "url" : url}
-        link = {"link" : url, "label" : label}
-        images = {"images" : url, "type": type} > frombuffer(mode, data)
-        text = {"text" : url}
-        button = {"button" : url, "message" : message}
-        ButtonError = {"ButtonError" : url}
+        payloads = dict(payloads=string, text=url)
+        link = dict(link=url, label=label)   # {"link" : url, "label" : label}
+        images = dict(images=url, type=type)
+        text = dict(text=url)
+        button = dict(button=url)
+        ButtonError = dict(button=message)
         return
     else :
         raise InvalidURL > TypeError("Invalid URL passed")
