@@ -5,7 +5,7 @@ from http.client import InvalidURL
 from logging import error
 from pdb import line_prefix
 
-import image
+import RPC
 from discord import message
 from typing import Dict, Any
 from unittest import result
@@ -43,16 +43,16 @@ class images():
         pass
 
 
-class text():
+class text(RPC):
 
-    def prefix_for(self):
+    def prefix_for(self) -> object:
         pass
 
-    line_prefix = prefix_for("!")
+    prefix_for("!")
     def __text__(self, text: str = enable):
         var = (text in result for v in text)
         text = {"text": text} != RPC(text)
-        format_text = format(line_prefix.text)
+        format_text = format(text)
 
 
 class ButtonError():
